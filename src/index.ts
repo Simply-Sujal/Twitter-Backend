@@ -14,6 +14,6 @@ app.use("/user", userRoutes);
 app.use("/tweet", tweetRoutes);
 
 // app.use("/")
-app.listen(PORT || 30001, () => {
+app.listen(PORT || 3001, () => {
   console.log(`Server is running at ${PORT}`);
 });
